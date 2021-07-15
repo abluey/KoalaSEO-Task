@@ -112,6 +112,7 @@ header{
 	padding: 50px;
 	display: flex;
     flex-direction: column;
+	font-family: 'Arvo', serif;
 
 	background-image: url('http://pets.axiomthemes.com/wp-content/uploads/2015/02/linepattern.png');
 	height: 700px;
