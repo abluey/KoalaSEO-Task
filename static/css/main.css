@@ -113,6 +113,7 @@ header{
 	display: flex;
     flex-direction: column;
 	font-family: 'Arvo', serif;
+	font-size: 3rem;
 
 	background-image: url('http://pets.axiomthemes.com/wp-content/uploads/2015/02/linepattern.png');
 	height: 700px;
@@ -145,7 +146,7 @@ header{
     background-position: center center;
 }
 
-#pricing-container-small{
+.pricing-container-small{
 	height: 400px;
 	width: 250px;
 	background-color: #8fc8ad;
@@ -153,7 +154,7 @@ header{
 	border-radius: 5px;
 }
 
-#pricing-container-large{
+.pricing-container-large{
 	height: 500px;
 	width: 350px;
 	background-color: #8fc8ad;
