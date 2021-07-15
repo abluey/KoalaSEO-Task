@@ -189,6 +189,16 @@ header{
 	margin: auto;
 }
 
+.contact-us{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+}
+
 footer{
 	height: 80px;
 	width: calc(100% - 80px);
