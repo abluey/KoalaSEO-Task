@@ -160,3 +160,22 @@ header{
 	margin: 10px;
 	border-radius: 5px;
 }
+
+.gallery{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.gallery-container{
+	display: flex;
+	max-width: 1000px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
