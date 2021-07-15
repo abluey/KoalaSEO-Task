@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
-header{
+nav{
 	justify-content: flex-start;
 	align-items: center;
 	display:flex;
@@ -13,7 +13,7 @@ header{
 	margin: 0px 20px;
 }
 
-.intro{
+header{
 	height: 600px;
 	display: flex;
 	align-items: center;
@@ -179,4 +179,15 @@ header{
 	align-items: center;
 	flex-wrap: wrap;
 	margin: auto;
+}
+
+footer{
+	height: 80px;
+	width: calc(100% - 80px);
+	background-color: #404249;
+	display: flex;
+	padding: 0px 40px;
+	align-items: center;
+	color: white;
+	font-family: 'Arvo', serif;
 }

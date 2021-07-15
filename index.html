@@ -14,15 +14,15 @@
 </head>
 
 <body style="padding: 0;margin: 0;">
-	<header>
+	<nav>
 		<div style="justify-content: space-between;" onclick="window.location.href='/'">
 			<img src="./static/imgs/logo.png" alt="Logo of Groom" height="60">
 			<img src="./static/imgs/logoText.png" alt="Text logo of Groom" height="40">
 		</div>
-	</header>
+	</nav>
 	
 	<!-- the short introduction before About-Us -->
-	<div class="intro">
+	<header>
 		<div style="height: 100%;width: 40%;display: flex;justify-content: center;align-items: center;">
 		</div>
 		<div class="hero_img">
@@ -35,7 +35,7 @@
 				<p style="margin: 0;font-family: 'Yomogi', cursive;font-size: 1.4rem">Book an App</p>
 			</div>
 		</div>
-	</div>
+	</header>
 
 	<!-- About-Us -->
 	<div class="about-us">
@@ -65,23 +65,23 @@
 		<div class="gallery-container">
 			<img src="./static/imgs/dog1.jpg"
 			alt="A white dog with a black head against a pink backdrop"
-			style="height: 400px;width: auto; padding: 10px;">
+			style="height: 400px;width: 600px; padding: 10px;">
 
 			<img src="./static/imgs/dog2.jpg"
 			alt="A brown-and-white puppy lying down against a blurred bedroom backdrop"
-			style="height: 366px;width: auto; padding: 10px;">
+			style="height: 366px;width: 274; padding: 10px;">
 
 			<img src="./static/imgs/dog3.jpeg"
 			alt="A white-and-black dog with its tongue out"
-			style="height: 170px;width: auto; padding: 10px;">
+			style="height: 170px;width: 255px; padding: 10px;">
 
 			<img src="./static/imgs/dog4.jpeg"
 			alt="A white-and-brown dog with black markings, with its front paws on a bright green stool"
-			style="height: 600px;width: auto; padding: 10px;">
+			style="height: 600px;width: 400px; padding: 10px;">
 
 			<img src="./static/imgs/dog5.jpeg"
 			alt="A brown dog with glasses sitting at a table, with an open book on it"
-			style="height: 600px;width: auto; padding: 10px;"
+			style="height: 600px; padding: 10px;"
 			onclick="document.getElementById('secret').style.display='flex'">
 		</div>
 	</div>
@@ -97,9 +97,9 @@
 	</div>
 
 	<!-- Footer -->
-	<div style="height: 80px;width: calc(100% - 80px);background-color: #404249;display: flex;padding: 0px 40px;align-items: center;color: white;font-family: 'Arvo', serif;">
+	<footer>
 		Groom © 2021 All Rights Reserved
-	</div>
+	</footer>
 
 	<p aria-hidden="true" style="display: none;" id="secret">You found the secret! Use code smartdoggo at checkout for 30% off</p>
 
