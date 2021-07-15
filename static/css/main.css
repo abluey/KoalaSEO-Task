@@ -2,12 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+.header{
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	cursor: pointer;
+}
+
+.intro{
+	height: 600px;
+	display: flex;
+	align-items: center;
+}
+
 .hero_img{
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	overflow: hidden;
+	height: 100%;
+	width: 60%;
+	background-image: url('./static/imgs/grooming.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .hero_img::before{
@@ -17,10 +36,42 @@
 	background-color: #e5e5e5;
 	position: absolute;
 	transform: rotate(-20deg) translateX(-100px);
+	height: 100%;
+	width: 40%;
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero_text{
+	position: absolute;
+	left: 10%;
+	z-index: 2;
+	transform: translateX(40px);
+}
+
+.hero_text1{
+	color: #29b462;
+	font-size: 4rem;
+	font-family: 'Caveat', cursive;
+	margin-bottom: 0px;
+}
+
+.hero_text2{
+	color: #ee957f;
+	font-family: 'Caveat', cursive;
+	font-size: 2rem;
+	margin-top: 5px;
 }
 
 .btn{
 	transition: background-color 200ms, color 200ms;
+	padding: 15px;
+	border:2px solid #ee957f;
+	width: fit-content;
+	cursor: pointer;
+	color: #ee957f
 }
 
 .btn:hover{
