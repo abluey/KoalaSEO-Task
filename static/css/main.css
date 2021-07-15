@@ -93,9 +93,6 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	font-family: 'Arvo', serif;
-	font-size: 3rem;
 }
 
 .wiggle::after{
@@ -107,11 +104,6 @@ header{
 	bottom: -20px;
 }
 
-.wiggle-content{
-	font-family: 'Arvo', serif;
-	font-size: 1.3rem;
-}
-
 .pricing{
 	position: relative;
 	display: flex;
@@ -120,6 +112,10 @@ header{
 	padding: 50px;
 	display: flex;
     flex-direction: column;
+
+	background-image: url('http://pets.axiomthemes.com/wp-content/uploads/2015/02/linepattern.png');
+	height: 700px;
+	background-color: #EE957F;
 }
 
 .pricing::before{
