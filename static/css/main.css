@@ -36,10 +36,8 @@
 	background-color: #e5e5e5;
 	position: absolute;
 	transform: rotate(-20deg) translateX(-100px);
-	height: 100%;
-	width: 40%;
-	background-color: #e5e5e5;
-	display: flex;
+	
+	
 	justify-content: center;
 	align-items: center;
 }
