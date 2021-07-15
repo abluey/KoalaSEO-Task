@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
-.header{
+header{
 	justify-content: center;
 	align-items: center;
 	display:flex;
 	cursor: pointer;
+	height: 100px;
+	width: calc(100% - 40px);
+	background-color: white;
+	margin: 0px 20px;
 }
 
 .intro{
@@ -36,10 +40,6 @@
 	background-color: #e5e5e5;
 	position: absolute;
 	transform: rotate(-20deg) translateX(-100px);
-	
-	
-	justify-content: center;
-	align-items: center;
 }
 
 .hero_text{
@@ -77,11 +77,25 @@
 	color: white!important;
 }
 
+.about-us{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 40px;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
 .wiggle{
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-family: 'Arvo', serif;
+	font-size: 3rem;
 }
 
 .wiggle::after{
@@ -91,6 +105,11 @@
 	height: 9px;
 	background-image: url("../imgs/title_underline.png");
 	bottom: -20px;
+}
+
+.wiggle-content{
+	font-family: 'Arvo', serif;
+	font-size: 1.3rem;
 }
 
 .pricing{

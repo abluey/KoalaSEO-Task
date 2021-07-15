@@ -12,9 +12,8 @@
 </head>
 
 <body style="padding: 0;margin: 0;">
-	<!-- style="height: 100px;width: calc(100% - 40px);background-color: white;display: flex;justify-content: space-between;align-items: center;margin: 0px 20px;" -->
 	<header>
-		<div class="header" onclick="window.location.href='/'">
+		<div style="justify-content: space-between;" onclick="window.location.href='/'">
 			<img src="./static/imgs/logo.png" alt="Logo of Groom." height="60">
 			<img src="./static/imgs/logoText.png" alt="Text logo of Groom." height="40">
 		</div>
@@ -22,13 +21,12 @@
 	
 	<!-- the short introduction before About-Us -->
 	<div class="intro">
-		<!-- moved first div styling to hero_img::before -->
-		<div style="height: 100%;width: 40%;display: flex;">
+		<div style="height: 100%;width: 40%;display: flex;justify-content: center;align-items: center;">
 		</div>
 		<div class="hero_img">
 		</div>
 		<div class="hero_text">
-			<p class="hero_text1">Grooming, done right.</p>
+			<h1 class="hero_text1">Grooming, done right.</h1>
 			<p class="hero_text2">Voted Birmingham's best salon 2020</p>
 			<div class="btn">
 				<p style="margin: 0;font-family: 'Yomogi', cursive;font-size: 1.4rem">Book an App</p>
@@ -37,15 +35,22 @@
 	</div>
 
 	<!-- About-Us -->
-	<div style="display: flex;justify-content: center;align-items: center;padding: 100px 40px;flex-direction: column;max-width: 1000px;margin: auto;margin-bottom: 100px;">
-		<p style="font-family: 'Arvo', serif;font-size: 3rem;" class="wiggle">About Us</p>
-		<p style="font-family: 'Arvo', serif;font-size: 1.3rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+	<div class="about-us">
+		<h2 class="wiggle">About Us</h2>
+		<p class="wiggle-content">
+			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 			molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 			numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 			optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
 			obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
 			nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-			tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit.
+			tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit. -->
+			Does your pet shed like a truck? Does it shed leaves like blossoms in the
+			spring? Our award-winning groomers are here to help. With 13 shops set up all
+			over Birmingham (and more around the country!), there has to be at least one
+			which satisfies your pet's needs. Each store comes equipped with scissors,
+			tables, and also chairs. Your pet will have the grooming of a lifetime by our
+			specially-trained groomers. Come to us with a mop and we'll get you... a pet!
 		</p>
 	</div>
 
