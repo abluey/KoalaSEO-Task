@@ -23,7 +23,7 @@
 	overflow: hidden;
 	height: 100%;
 	width: 60%;
-	background-image: url('./imgs/grooming.jpg');
+	background-image: url('../imgs/grooming.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
